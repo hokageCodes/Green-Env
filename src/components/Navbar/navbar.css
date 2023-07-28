@@ -1,0 +1,29 @@
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo > img {
+    width: 130px;
+    height: 26.329px;
+}
+.right {
+    display: flex;
+    align-items: center;
+}
+.nav-links {
+    display: flex;
+    gap: 40px;
+}
+.nav-links > li {
+    color: #0B0706;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    list-style-type: none;
+}
+.nav-links > a {
+    display: flex;
+}
