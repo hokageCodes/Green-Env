@@ -1,4 +1,5 @@
 import finLogo from '../../assets/images/finLogo.png'
+
 import './navbar.css'
 
 export default function NavBar() {

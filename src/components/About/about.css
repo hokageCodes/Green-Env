@@ -1,0 +1,31 @@
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 90vh;
+}
+.about-left {
+    max-width: 607px;
+}
+.about-heading {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.about-heading > h4 {
+    color: #1D2130;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+hr {
+    width: 72px;
+}
+.about-heading > a {
+    padding: 16px 32px;
+    border-radius: 4px;
+    background: #70C174;
+    backdrop-filter: blur(40px);
+}
